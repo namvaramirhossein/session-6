@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: pink;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 3fr;
+}
+.column1{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.column2{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 3fr 6fr 1fr;
+}
+.row1{
+    background-color: coral;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.left-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.right-cards{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+.cards{
+    background-color: coral;
+}
+.row3{
+    background-color: coral;
+}
+.name{
+    font-size: larger;
+    font-weight: bolder;
+}
